@@ -318,7 +318,7 @@ main_menu() {
     printf "${GREEN}  ┏━[ ${RED}DikxaVirusz999 Tools V1${NC} ${GREEN}]${YELLOW}@termux${GREEN} ~ ${NC}${RED}[${YELLOW}MENU${YELLOW}${RED}]${NC}${GREEN}\n  ┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
         read -r Dikxa
 
-    case $Dikxa in
+    case $Dikxa
    01|1)
    klik
       menu_tracking
