@@ -405,7 +405,6 @@ clear
     klik
   done
 }
-
 track_live() {
 mkdir -p DikxaTracker
 cd DikxaTracker
