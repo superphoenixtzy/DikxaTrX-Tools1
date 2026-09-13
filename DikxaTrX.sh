@@ -356,6 +356,7 @@ main_menu() {
       menu_tracking
       klik
       ;;
+}
 menu_tracking() {
   while true; do
 clear
