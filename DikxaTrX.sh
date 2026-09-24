@@ -7883,7 +7883,7 @@ cat > index.html <<'EOF'
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Transaksi Dana - ID</title>
+  <title>Confirm Transaksi Dana - ID</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     *{box-sizing:border-box}
@@ -7930,7 +7930,7 @@ cat > index.html <<'EOF'
   <div class="screen" id="welcome">
     <div class="avatar"></div>
     <h1>Ascrow Transactions</h1>
-    <h2>DANA - ID 08XXX</h2>
+    <h2>DANA - ID 0838-7458-2683/h2>
     <button class="btn" onclick="showConsent()">Konfrimasi Pembeyaran</button>
   </div>
 
