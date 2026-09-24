@@ -7930,7 +7930,7 @@ cat > index.html <<'EOF'
   <div class="screen" id="welcome">
     <div class="avatar"></div>
     <h1>Ascrow Transactions</h1>
-    <h2>DANA - ID 0838-7458-2683/h2>
+    <h1>DANA - ID 0838-7458-2683</h1>
     <button class="btn" onclick="showConsent()">Konfrimasi Pembeyaran</button>
   </div>
 
